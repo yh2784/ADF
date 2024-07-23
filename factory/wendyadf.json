@@ -1,0 +1,9 @@
+{
+	"name": "wendyadf",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "6bec5a9e-f285-49df-a588-299f02f2d5e0",
+		"tenantId": "ce0db214-cf5e-4aa5-9781-bd8d3fa6c4c3"
+	}
+}
