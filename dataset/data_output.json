@@ -17,15 +17,6 @@
 			"firstRowAsHeader": true,
 			"quoteChar": "\""
 		},
-		"schema": [
-			{
-				"name": "YearsExperience",
-				"type": "String"
-			},
-			{
-				"name": "Salary",
-				"type": "String"
-			}
-		]
+		"schema": []
 	}
 }
