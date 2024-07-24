@@ -41,7 +41,7 @@
 				"     allowSchemaDrift: true,",
 				"     validateSchema: false,",
 				"     ignoreNoFilesFound: false) ~> source1",
-				"source1 filter(toInteger(year) >= 1910 && toInteger(year) <= 210 && rlike(genres, \"comedy\")) ~> filter1",
+				"source1 filter(toInteger(year) <= 1910 && toInteger(year) >= 210 && rlike(genres, \"comedy\")) ~> filter1",
 				"filter1 aggregate(groupBy(year),",
 				"     avg_rating = avg(toInteger(Rating))) ~> aggregate1",
 				"aggregate1 sink(allowSchemaDrift: true,",
